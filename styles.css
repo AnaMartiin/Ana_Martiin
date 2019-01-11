@@ -1,12 +1,12 @@
 
 #nav.nav-links {
 
-  }
+}
 
- #nav.nav-links a { background-color: lightblue;
+#nav.nav-links a { background-color: lightblue;
   font-size: 100% ; font-family: Courier New, Courier;  font-style: italic; 
 
-  }
+}
 
 #tq.nav { font-size: 100% }
 
@@ -15,10 +15,10 @@ div.nav-header { font-size: 120%; font-style: italic }
 
 
 
- div.nav-header div.nav-title { font-size: 100%; font-weight: 100% ; border-color: green}
+div.nav-header div.nav-title { font-size: 100%; font-weight: 100% ; border-color: green}
 
-  }
-  #tch h1 { font-size: 200% ; border-left: 30%; font-family: Courier New, Courier, monospace;
+}
+#tch h1 { font-size: 200% ; border-left: 30%; font-family: Courier New, Courier, monospace;
   font-style: normal;
   margin-top: 100%;
   margin-bottom: 10%;
@@ -28,20 +28,20 @@ div.nav-header { font-size: 120%; font-style: italic }
 
 
 
-   }
-  #tch h2 {  font-size: 150% ; border-left: 30%; font-style: italic; 
-     margin-top: 5%;
-  margin-bottom: 5%;
-  margin-right: 10%;
-  margin-left: 40%; font-family: Courier New, Courier, monospace;
-  font-size: 200%
- }
+}
+#tch h2 {  font-size: 150% ; border-left: 30%; font-style: italic; 
+ margin-top: 5%;
+ margin-bottom: 5%;
+ margin-right: 10%;
+ margin-left: 40%; font-family: Courier New, Courier, monospace;
+ font-size: 200%
+}
 
-  #tch {   
+#tch {   
 
-  
+
  background: url('https://empoweryourknowledgeandhappytrivia.files.wordpress.com/2015/05/animals-world-map.jpg') no-repeat center center; opacity: 0.5;
-  filter: alpha(opacity=50); /* For IE8 and earlier */; 
+ filter: alpha(opacity=50); /* For IE8 and earlier */; 
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -51,25 +51,25 @@ div.nav-header { font-size: 120%; font-style: italic }
 }
 
 
-  #tch a { 
+#tch a { 
   position: relative;
   top: 75%;
   left: 50%;
   font-size: 200%;
   
- 
-  }
 
-  }
-   #tch a button {  }
+}
+
+}
+#tch a button {  }
 
 
-  #tch img {  }
-  
+#tch img {  }
 
-  #grphs.grphs { font-family: Courier New, Courier, monospace; }
-   #Graphs {  }
-   #grphs.grphs ul.flex-container { list-style: none;
+
+#grphs.grphs { font-family: Courier New, Courier, monospace; }
+#Graphs {  }
+#grphs.grphs ul.flex-container { list-style: none;
   margin: 0;
   padding: 1em;
   display: grid;
@@ -83,86 +83,98 @@ div.nav-header { font-size: 120%; font-style: italic }
 
 
   padding: 1em 1em;
+}
+#grphs.grphs ul.flex-container li {  }
+#grphs.grphs ul.flex-container li h3 {}
+
+
+
+#grphs.grphs ul.flex-container li img { max-width: 100%;
+  position: relative }
+
+  #grphs.grphs ul.flex-container li img p { } 
+
+
+  #grphs.grphs ul.flex-container li li.flex-item {  }
+  #grphs.grphs ul.flex-container li li.flex-item h3 {  }
+  #grphs.grphs ul.flex-container li li.flex-item img { }
+  #grphs.grphs ul.flex-container li li.flex-item img p {  }
+  #grphs.grphs ul.flex-container li li.flex-item li.flex-item {  }
+  #grphs.grphs ul.flex-container li li.flex-item li.flex-item h3 {  }
+  #grphs.grphs ul.flex-container li li.flex-item li.flex-item img {  }
+  #grphs.grphs ul.flex-container li li.flex-item li.flex-item img p {  }
+
+  #gllry.colums { font-family: Courier New, Courier, monospace; 
+
+
+
+
+  }
+ .columns-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
  }
-    #grphs.grphs ul.flex-container li {  }
-     #grphs.grphs ul.flex-container li h3 {}
+ .columns-3 img {
+  width: 100%;
+ }
+
+  #gllry ul.gallery {  
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+    display: grid;
+    justify-content: space-between;
+    position: relative;
+
+    border: 5px solid #ccc;
+    /*grid-template-columns: repeat(auto-fill, 25%)*/
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 5%;
 
 
+    padding: 1em 1em;  }
 
-     #grphs.grphs ul.flex-container li img { max-width: 100%;
-  position: relative }
+    #gllry.colums li.flex-item img {   max-width: 100%;
+      position: relative }
 
-      #grphs.grphs ul.flex-container li img p { } 
+      #tm.section ul.flex-container { 
+        list-style: none;
+        margin: 0;
+        padding: 1em;
+        display: grid;
+        justify-content: space-between;
+        position: relative;
 
-
-     #grphs.grphs ul.flex-container li li.flex-item {  }
-      #grphs.grphs ul.flex-container li li.flex-item h3 {  }
-      #grphs.grphs ul.flex-container li li.flex-item img { }
-       #grphs.grphs ul.flex-container li li.flex-item img p {  }
-      #grphs.grphs ul.flex-container li li.flex-item li.flex-item {  }
-       #grphs.grphs ul.flex-container li li.flex-item li.flex-item h3 {  }
-       #grphs.grphs ul.flex-container li li.flex-item li.flex-item img {  }
-        #grphs.grphs ul.flex-container li li.flex-item li.flex-item img p {  }
-
-     #gllry.colums { font-family: Courier New, Courier, monospace; 
-
-
+        border: 5px; solid #ccc;
+        /*grid-template-columns: repeat(auto-fill, 25%)*/
+        grid-template-columns: 33% 33% 33%;
+        grid-gap: 5%;
 
 
-      }
-      #animals {  }
-     #gllry.colums ul.gallery {  list-style: none;
-  margin: 0;
-  padding: 1em;
-  display: grid;
-  justify-content: space-between;
-  position: relative;
+        padding: 1em 1em; }
 
-  border: 5px; solid #ccc;
-  /*grid-template-columns: repeat(auto-fill, 25%)*/
-  grid-template-columns: 33% 33% 33%;
-  grid-gap: 5%;
+        #tm.section ul.flex-container li.flex-item.team {  }
 
+        #tm.section ul.flex-container li.flex-item.team img { max-width: 100%;
+          position: relative }
 
-  padding: 1em 1em;  }
-
-      #gllry.colums li.flex-item img {   max-width: 100%;
-  position: relative }
-
-              #tm.section ul.flex-container { 
-              list-style: none;
-  margin: 0;
-  padding: 1em;
-  display: grid;
-  justify-content: space-between;
-  position: relative;
-
-  border: 5px; solid #ccc;
-  /*grid-template-columns: repeat(auto-fill, 25%)*/
-  grid-template-columns: 33% 33% 33%;
-  grid-gap: 5%;
-
-
-  padding: 1em 1em; }
-               #tm.section ul.flex-container li.flex-item.team {  }
-                #tm.section ul.flex-container li.flex-item.team img { max-width: 100%;
-  position: relative }
-                #tm.section ul.flex-container li.flex-item.team li.flex-item.team {  }
-                 #tm.section ul.flex-container li.flex-item.team li.flex-item.team img {  }
-                 #tm.section ul.flex-container li.flex-item.team li.flex-item.team li.flex-item.team {  }
-                  #tm.section ul.flex-container li.flex-item.team li.flex-item.team li.flex-item.team img {  }
-                  #tm.section ul.flex-container li.flex-item.team li.flex-item.team li.flex-item.team li.flex-item.team {  }
-                   #tm.section ul.flex-container li.flex-item.team li.flex-item.team li.flex-item.team li.flex-item.team img {  }
-                   #tm.section ul.flex-container li.flex-item.team li.flex-item.team li.flex-item.team li.flex-item.team li.flex-item.team {  }
-                    #tm.section ul.flex-container li.flex-item.team li.flex-item.team li.flex-item.team li.flex-item.team li.flex-item.team img {  }
-                  #addrss.contactussection {  }
-                   #Map {  }
-                   #addrss.contactussection div {  }
-                    #addrss.contactussection div iframe {  }
-                     #addrss.contactussection div iframe a {  }
-                   #addrss.contactussection br {  }
-                   #addrss.contactussection p {  }
-                    #addrss.contactussection p a {  }
+          #tm.section ul.flex-container li.flex-item.team li.flex-item.team {  }
+          #tm.section ul.flex-container li.flex-item.team li.flex-item.team img {  }
+          #tm.section ul.flex-container li.flex-item.team li.flex-item.team li.flex-item.team {  }
+          #tm.section ul.flex-container li.flex-item.team li.flex-item.team li.flex-item.team img {  }
+          #tm.section ul.flex-container li.flex-item.team li.flex-item.team li.flex-item.team li.flex-item.team {  }
+          #tm.section ul.flex-container li.flex-item.team li.flex-item.team li.flex-item.team li.flex-item.team img {  }
+          #tm.section ul.flex-container li.flex-item.team li.flex-item.team li.flex-item.team li.flex-item.team li.flex-item.team {  }
+          #tm.section ul.flex-container li.flex-item.team li.flex-item.team li.flex-item.team li.flex-item.team li.flex-item.team img {  }
+          #addrss.contactussection {  }
+          #Map {  }
+          #addrss.contactussection div {  }
+          #addrss.contactussection div iframe {  }
+          #addrss.contactussection div iframe a {  }
+          #addrss.contactussection br {  }
+          #addrss.contactussection p {  }
+          #addrss.contactussection p a {  }
 
 
 
